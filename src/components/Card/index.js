@@ -1,13 +1,19 @@
 import React from "react";
-import { Content, Image, Title, Price, AddButton } from "./style";
+import { Content, Image, Title, Price, DataContent } from "./style";
 
 export default function Card({ imageWine, title, price }) {
   return (
-    <Content>
-      <Image source={imageWine} resizeMode="contain" />
-      <Title>{title}</Title>
-      <Price>{`R$ ${price}`}</Price>
-      <AddButton>Adquirir!</AddButton>
+    <Content animation="bounceIn">
+      <Image
+        source={imageWine}
+        resizeMode="contain"
+        animation="pulse"
+        iterationCount="infinite"
+      />
+      <DataContent>
+        <Title>{title}</Title>
+        <Price>{`R$ ${price}`}</Price>
+      </DataContent>
     </Content>
   );
 }

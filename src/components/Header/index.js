@@ -1,5 +1,4 @@
 import React from "react";
-import { Text } from "react-native-web";
 import { MenuItems, Container, Item } from "./style";
 import { Feather } from "react-native-vector-icons";
 import theme from "../../theme";
