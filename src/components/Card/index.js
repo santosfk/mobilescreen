@@ -1,10 +1,12 @@
 import React from "react";
-import { Container, Content } from "./style";
+import { Content, Image, Title, Price } from "./style";
 
-export default function Card() {
+export default function Card({ imageWine, title, price }) {
   return (
-    <Container>
-      <Content>...</Content>
-    </Container>
+    <Content>
+      <Image source={imageWine} resizeMode="contain" />
+      <Title>{title}</Title>
+      <Price>{`R$ ${price}`}</Price>
+    </Content>
   );
 }
