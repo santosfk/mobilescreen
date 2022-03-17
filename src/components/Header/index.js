@@ -1,15 +1,22 @@
 import React from "react";
 import { Text } from "react-native-web";
-import { MenuItems, Container } from "./style";
+import { MenuItems, Container, Item } from "./style";
 import { Feather } from "react-native-vector-icons";
+import theme from "../../theme";
 
 export default function Header() {
   return (
     <Container>
       <MenuItems>
-        <Feather name="search" size={20} color="green" />
-        <Feather name="user" size={20} color="green" />
-        <Feather name="activity" size={20} color="green" />
+        <Item>
+          <Feather name="search" size={25} color={theme.COLOR.ICONS} />
+        </Item>
+        <Item>
+          <Feather name="user" size={25} color={theme.COLOR.ICONS} />
+        </Item>
+        <Item>
+          <Feather name="activity" size={25} color={theme.COLOR.ICONS} />
+        </Item>
       </MenuItems>
     </Container>
   );
