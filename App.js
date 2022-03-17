@@ -5,6 +5,7 @@ import Home from "./src/screens/Home";
 import AppLoading from "expo-app-loading";
 import { ThemeProvider } from "styled-components/native";
 import THEME from "./src/theme";
+
 import {
   useFonts,
   Roboto_400Regular,
