@@ -5,7 +5,7 @@ export const Container = styled.View`
   height: 60px;
   background-color: ${({ theme }) => theme.COLOR.BACKGROUND_800};
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  position: fixed;
+  position: absolute;
   z-index: 2;
 `;
 export const MenuItems = styled.View`
