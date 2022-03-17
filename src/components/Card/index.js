@@ -1,5 +1,5 @@
 import React from "react";
-import { Content, Image, Title, Price } from "./style";
+import { Content, Image, Title, Price, AddButton } from "./style";
 
 export default function Card({ imageWine, title, price }) {
   return (
@@ -7,6 +7,7 @@ export default function Card({ imageWine, title, price }) {
       <Image source={imageWine} resizeMode="contain" />
       <Title>{title}</Title>
       <Price>{`R$ ${price}`}</Price>
+      <AddButton>Adquirir!</AddButton>
     </Content>
   );
 }

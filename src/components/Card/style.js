@@ -8,12 +8,14 @@ export const Content = styled.View`
   background-color: ${({ theme }) => theme.COLOR.BACKGROUND_900};
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  align-items: center;
 `;
 
 export const Image = styled.Image`
   height: ${RFPercentage(35)}px;
   width: ${RFPercentage(35)}px;
-  margin: auto;
+
   margin-top: -90px;
 `;
 
@@ -27,7 +29,14 @@ export const Title = styled.Text`
 export const Price = styled.Text`
   color: ${({ theme }) => theme.COLOR.ICONS};
   text-align: center;
-  margin-bottom: 40px;
+  margin-top: -20px;
+  margin-bottom: 10px;
   font-size: ${RFPercentage(4)}px;
   font-family: ${({ theme }) => theme.FONT.BOLD};
+`;
+
+export const AddButton = styled.Button`
+  height: 100px;
+  padding: 100px;
+  background-color: ${({ theme }) => theme.COLOR.BACKGROUND_700};
 `;
