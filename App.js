@@ -1,7 +1,5 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { Text, View } from "react-native";
-import Home from "./src/screens/Home";
 import AppLoading from "expo-app-loading";
 import { ThemeProvider } from "styled-components/native";
 import THEME from "./src/theme";
