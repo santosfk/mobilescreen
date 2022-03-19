@@ -3,7 +3,7 @@ import { RFPercentage } from "react-native-responsive-fontsize";
 import * as Animatable from "react-native-animatable";
 export const Content = styled(Animatable.Text)`
   width: 250px;
-  height: 320px;
+  height: 300px;
   margin: auto;
   margin-top: 50%;
   background-color: ${({ theme }) => theme.COLOR.BACKGROUND_900};
