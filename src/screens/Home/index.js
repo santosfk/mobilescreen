@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, BottomBar } from "./style";
+import { Container } from "./style";
 import Header from "../../components/Header";
 import Card from "../../components/Card";
 import WineZero from "../../assets/vinho.png";

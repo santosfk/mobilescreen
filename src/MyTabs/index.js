@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../screens/Profile";
+import { Profile } from "../screens/Profile";
 import Home from "../screens/Home";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
 const Tab = createMaterialBottomTabNavigator();
