@@ -19,7 +19,7 @@ export const Image = styled(Animatable.Image)`
 `;
 
 export const Title = styled.Text`
-  color: ${({ theme }) => theme.COLOR.TEXT};
+  color: white;
   font-size: ${RFPercentage(4)}px;
   font-family: ${({ theme }) => theme.FONT.REGULAR};
   margin: 0px 35px;

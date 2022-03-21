@@ -17,12 +17,15 @@ export const ImageUser = styled.Image`
   border-radius: 50%;
 `;
 export const NameUser = styled.Text`
-  color: ${({ theme }) => theme.COLOR.TEXT};
+  color: white;
   font-family: ${({ theme }) => theme.FONT.BOLD};
   font-size: ${RFPercentage(3)}px;
 `;
 export const LevelUser = styled.Text`
   font-size: ${RFPercentage(3)}px;
-  color: ${({ theme }) => theme.COLOR.TEXT};
+  color: white;
   font-family: ${({ theme }) => theme.FONT.BOLD};
+`;
+export const ChangeTheme = styled.Button`
+  width: 50px;
 `;

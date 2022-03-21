@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Profile } from "../screens/Profile";
 import Home from "../screens/Home";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
+
 const Tab = createMaterialBottomTabNavigator();
+
 export default function MyTabs() {
   return (
     <Tab.Navigator>
