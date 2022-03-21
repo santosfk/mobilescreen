@@ -6,6 +6,7 @@ export default {
     BACKGROUND_700: "#F27798",
     TEXT: "#111111",
     ICONS: "#F29F05",
+    BUTTON: "#F27798",
   },
   FONT: {
     REGULAR: "Roboto_400Regular",

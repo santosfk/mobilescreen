@@ -26,6 +26,14 @@ export const LevelUser = styled.Text`
   color: white;
   font-family: ${({ theme }) => theme.FONT.BOLD};
 `;
-export const ChangeTheme = styled.Button`
-  width: 50px;
+export const ChangeTheme = styled.TouchableOpacity`
+  width: 90px;
+  background-color: ${({ theme }) => theme.COLOR.BUTTON};
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+`;
+export const ButtonTitle = styled.Text`
+  color: ${({ theme }) => theme.COLOR.TEXT};
+  font-family: ${({ theme }) => theme.FONT.BOLD};
 `;
