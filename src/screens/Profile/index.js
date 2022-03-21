@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { Text } from "react-native";
 
 import Img from "../../assets/Homem.jpg";
 import {
@@ -10,6 +10,8 @@ import {
   UserLevel,
   UserPurchases,
   UserSales,
+  SkillLabel,
+  SkillValue,
 } from "./style";
 export const Profile = () => {
   return (
@@ -17,9 +19,18 @@ export const Profile = () => {
       <UserImg source={Img} />
       <UserName>José Adolfo</UserName>
       <UsersSkills>
-        <UserLevel>{`Level: ${26}`}</UserLevel>
-        <UserPurchases>{`Compras: ${10}`}</UserPurchases>
-        <UserSales>{`Vendas: ${2}`}</UserSales>
+        <UserLevel>
+          <SkillLabel>Level</SkillLabel>
+          <SkillValue>{26}</SkillValue>
+        </UserLevel>
+        <UserPurchases>
+          <SkillLabel>Compras</SkillLabel>
+          <SkillValue>{10}</SkillValue>
+        </UserPurchases>
+        <UserSales>
+          <SkillLabel>Vendas</SkillLabel>
+          <SkillValue>{2}</SkillValue>
+        </UserSales>
       </UsersSkills>
     </Content>
   );
